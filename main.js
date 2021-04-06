@@ -14,7 +14,7 @@ function selectItem(e) {
 	tabContentItem.classList.add('show');
 }
 
-// Remuebo el borde de todos los tabs
+// Remueve el borde de todos los tabs
 function removeBorder() {
 	tabItems.forEach(item => {
 		item.classList.remove('tab-border');
